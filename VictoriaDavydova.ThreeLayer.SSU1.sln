@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictoriaDavydova.ThreeLayer.SSU1", "VictoriaDavydova.ThreeLayer.SSU1\VictoriaDavydova.ThreeLayer.SSU1.csproj", "{2F9CE2F8-F937-4D49-AB7C-66084ABEA37D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{DA51B17B-81F1-43B6-AA23-D438B3AC281C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{B5D1E5EA-7BD0-4DF6-875A-4B2573180A9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PL", "PL", "{42A12743-31BE-4CE4-A9B9-DF63C3F4EEC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{A8990C8A-BC73-4E2D-AA18-B0BF07B3EBA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictoriaDavydova.ThreeLayer.SSU.Entities", "VictoriaDavydova.ThreeLayer.SSU.Entities\VictoriaDavydova.ThreeLayer.SSU.Entities.csproj", "{371CDAFE-CAF2-4130-B0F2-7EF30593C337}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractDAL", "AbstractDAL", "{568140CB-C6C3-46D7-87E3-9C4080200A97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UsersPlusAwardsDAL", "UsersPlusAwardsDAL", "{46A5A3A8-5833-421D-AD61-A48D30F9CD33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictoriaDavydova.ThreeLayer.SSU.DAL.AbstractDAL", "VictoriaDavydova.ThreeLayer.SSU.DAL.AbstractDAL\VictoriaDavydova.ThreeLayer.SSU.DAL.AbstractDAL.csproj", "{85370906-9E87-41C9-A2CB-780ECF124924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictoriaDavydova.ThreeLayer.SSU.DAL.UsersPlusAwardsDAL", "VictoriaDavydova.ThreeLayer.SSU.DAL.UsersPlusAwardsDAL\VictoriaDavydova.ThreeLayer.SSU.DAL.UsersPlusAwardsDAL.csproj", "{17E6592C-558D-432D-8D1D-E1144A925726}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractBLL", "AbstractBLL", "{A6BF2440-83C0-4E93-88F6-9FFD01866C49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UsersPlusAwardsBLL", "UsersPlusAwardsBLL", "{C368B3E0-4CE7-4A90-B152-811DB16629F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictoriaDavydova.ThreeLayer.SSU.BLL.AbstractBLL", "VictoriaDavydova.ThreeLayer.SSU.BLL.AbstractBLL\VictoriaDavydova.ThreeLayer.SSU.BLL.AbstractBLL.csproj", "{2C2870FD-C8BF-4BEF-84DF-A605D9FAEF37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictoriaDavydova.ThreeLayer.SSU.BLL.UsersPlusAwardsBLL", "VictoriaDavydova.ThreeLayer.SSU.BLL.UsersPlusAwardsBLL\VictoriaDavydova.ThreeLayer.SSU.BLL.UsersPlusAwardsBLL.csproj", "{E56AFC81-755E-4D5B-86BD-75560E2680EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3A1FC242-F901-4234-B854-8B71797AEDA7}"
+	ProjectSection(SolutionItems) = preProject
+		NewTables.sql = NewTables.sql
+		UsersAwardsScript.sql = UsersAwardsScript.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F9CE2F8-F937-4D49-AB7C-66084ABEA37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F9CE2F8-F937-4D49-AB7C-66084ABEA37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F9CE2F8-F937-4D49-AB7C-66084ABEA37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F9CE2F8-F937-4D49-AB7C-66084ABEA37D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371CDAFE-CAF2-4130-B0F2-7EF30593C337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371CDAFE-CAF2-4130-B0F2-7EF30593C337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371CDAFE-CAF2-4130-B0F2-7EF30593C337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371CDAFE-CAF2-4130-B0F2-7EF30593C337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85370906-9E87-41C9-A2CB-780ECF124924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85370906-9E87-41C9-A2CB-780ECF124924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85370906-9E87-41C9-A2CB-780ECF124924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85370906-9E87-41C9-A2CB-780ECF124924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E6592C-558D-432D-8D1D-E1144A925726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E6592C-558D-432D-8D1D-E1144A925726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E6592C-558D-432D-8D1D-E1144A925726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E6592C-558D-432D-8D1D-E1144A925726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C2870FD-C8BF-4BEF-84DF-A605D9FAEF37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C2870FD-C8BF-4BEF-84DF-A605D9FAEF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C2870FD-C8BF-4BEF-84DF-A605D9FAEF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C2870FD-C8BF-4BEF-84DF-A605D9FAEF37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E56AFC81-755E-4D5B-86BD-75560E2680EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E56AFC81-755E-4D5B-86BD-75560E2680EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E56AFC81-755E-4D5B-86BD-75560E2680EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E56AFC81-755E-4D5B-86BD-75560E2680EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F9CE2F8-F937-4D49-AB7C-66084ABEA37D} = {42A12743-31BE-4CE4-A9B9-DF63C3F4EEC9}
+		{371CDAFE-CAF2-4130-B0F2-7EF30593C337} = {A8990C8A-BC73-4E2D-AA18-B0BF07B3EBA4}
+		{568140CB-C6C3-46D7-87E3-9C4080200A97} = {B5D1E5EA-7BD0-4DF6-875A-4B2573180A9D}
+		{46A5A3A8-5833-421D-AD61-A48D30F9CD33} = {B5D1E5EA-7BD0-4DF6-875A-4B2573180A9D}
+		{85370906-9E87-41C9-A2CB-780ECF124924} = {568140CB-C6C3-46D7-87E3-9C4080200A97}
+		{17E6592C-558D-432D-8D1D-E1144A925726} = {46A5A3A8-5833-421D-AD61-A48D30F9CD33}
+		{A6BF2440-83C0-4E93-88F6-9FFD01866C49} = {DA51B17B-81F1-43B6-AA23-D438B3AC281C}
+		{C368B3E0-4CE7-4A90-B152-811DB16629F1} = {DA51B17B-81F1-43B6-AA23-D438B3AC281C}
+		{2C2870FD-C8BF-4BEF-84DF-A605D9FAEF37} = {A6BF2440-83C0-4E93-88F6-9FFD01866C49}
+		{E56AFC81-755E-4D5B-86BD-75560E2680EC} = {C368B3E0-4CE7-4A90-B152-811DB16629F1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {322A93F3-1E0F-407B-A8B9-55B9376D4EB3}
+	EndGlobalSection
+EndGlobal
